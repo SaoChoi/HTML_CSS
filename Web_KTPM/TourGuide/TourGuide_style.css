@@ -1,0 +1,191 @@
+body{
+	margin: 0px;
+}
+html{
+	scroll-behavior: smooth;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+ul{
+	background-color: black;
+	list-style: none;
+}
+.menu{
+	display: flex;
+	position:fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	margin: 0;
+}
+li{
+
+	font-size: 15px;
+}
+li:hover{
+	background-color: red;
+	color: black;
+	box-shadow: 1px 0px 3px 3px rgba(0,0,0,0.15);
+	cursor: pointer;
+}
+.list{
+	color: white;
+	padding: 15px;
+	position: relative;
+}
+.list:hover #dp{
+	background-color: white;
+	display: block;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	width: 150%;
+}
+#dp{
+	display: none;
+	list-style: none;
+	padding: 0%;
+}
+.clone{
+	flex-grow: 1;
+}
+#search:hover{
+	background-color: red;
+	color: white;
+	width: 2%;
+}
+.pic{
+
+	background-repeat: no-repeat;
+	background-position: center;
+    background-size: cover;
+    height: 900px;
+    display: block;
+
+}
+.text{
+	padding-top: 750px;
+	color: white;
+	text-align: center;
+}
+body{
+
+	font-family: arial;
+}
+.title{
+	text-align: center;
+	letter-spacing: 6px;
+	font-size: 150%;
+	padding-top: 80px;
+}
+.pp{
+	text-align: center;
+	color: rgb(200,200,200);
+	font-style: italic;
+	font-size: 16px;
+}
+.format{
+	line-height: 30px;
+	padding-left: 10px;
+}
+.container{
+	display: flex;
+	justify-content: center;
+}
+.item{
+	margin: 3%;
+	width: 150px;
+	text-align: center;
+}
+.img{
+	background-image: url(https://vanantravel.vn/uploads/anh-slide-mb/dulich.jpg);
+	background-position: left-top;
+	background-size: cover;
+	border-radius: 10px;
+	height: 200px;
+	width: 150px;
+}
+.td{
+	background-color: black;
+	height: 900px;
+}
+
+.border{
+	background-color: white;
+	border:1px solid rgb(200,200,200);
+	line-height: 40px;
+	padding-left: 15px;
+	width: 49%;
+	display: flex;
+}
+.soldout{
+	border:1px solid rgb(255,60,0);
+	background-color: rgb(255,60,0);
+	color: white;
+	padding: 3px;
+	margin:15px;
+}
+.num{
+	background-color: black;
+	color: white;
+	border-radius: 50%;
+	padding: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.display-w{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+button{
+	color: white;
+	background-color: black;
+	border-style: none;
+	padding: 10px;
+	margin-top: 15px;
+	font-size: 16px
+}
+button:hover{
+	color: white;
+	background-color:red;
+	cursor: pointer;
+}
+.icon{
+	color: black;
+	font-size: 110%;
+}
+.block{
+	width: 25%;
+	line-height: 8px;
+	font-size: 17px;
+}
+#ct{
+	display: block;
+	background-color: white;
+	height: 400px;
+}
+.paint{
+	margin: 0.5%;
+	margin-top: 2%;
+	border: 1px solid black;
+	width: 16%;
+	height: 425px;
+	background-color: white;
+}
+.city:hover{
+	background-color: gray;
+	cursor: pointer;
+}
+.city{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.fm{
+	line-height: 15px;
+	padding: 15px;
+}
